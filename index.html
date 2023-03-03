@@ -1,0 +1,405 @@
+<!-- 1. Fix the bugs in below snippet 
+   <html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+        </title>
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html> -->
+
+<!-- Answer: -->
+<html lang="en">
+<head>
+  <title>Document guvi</title>
+</head>
+  <body>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    <div>
+    <div>
+        Guvi Geek Network
+    </div>
+  </body>
+</html>
+
+<br>------------------------------------------------------------------- <br>
+
+<!-- 2. Try the below one
+<html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html> -->
+
+<!--Answer-->
+<html lang="en">
+  <head>
+      <title>Document guvi</title>
+  </head>
+  <body>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    <div>
+    <div>
+        Guvi Geek Network
+    </div>
+  </body>
+</html> 
+
+<br>------------------------------------------------------------------- <br>
+
+<!-- 3. Design a contact us form with all fields as required. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact us form!</title>
+</head>
+<body>
+  <h2>Contact Form</h2>
+  <form action="#">
+    <label for="fname">First name</label>
+    <input type="text" placeholder="First name" id="fname" name="fname">
+    <br><br>
+
+    <label for="lname">Last name</label>
+    <input type="text" placeholder="Last name" id="lname" name="lname">
+    <br><br>
+
+    <label for="email">Email</label>
+    <input type="email" placeholder="Your email" id="email" name="email">
+    <br><br>
+
+    <label for="phone">Phone no.</label>
+    <input type="number" placeholder="Phone No." id="phone"  name="phone">
+    <br><br>
+
+    <label for="address">Address</label>
+    <br>
+    <textarea name="address" id="address" cols="30" rows="10"></textarea>
+    <br><br>
+
+    <input type="submit" name="Submit">
+  </form>
+</body>
+</html>
+
+<br>------------------------------------------------------------------- <br>
+<!-- 4. Use certain HTML elements to display the following in a HTML page. -->
+
+<ul>
+  <li>Programming Language</li>
+  <ul>
+    <li>Javascript</li>
+    <ol type="a">
+      <li>Angular</li>
+      <li>React</li>
+      <li>Vue.js</li>
+    </ol>
+    <li>Python</li>
+    <ol type="a">
+      <li>Django Framework</li>
+      <li>Flask Framework</li>
+    </ol>
+    <li>Java</li>
+    <ol type="a">
+      <li>Spring</li>
+      <li>Maven</li>
+      <li>Hibernate</li>
+    </ol>
+  </ul>
+  <li>Database</li>
+  <ul>
+    <li>MySQL</li>
+    <li>MongoDB</li>
+    <li>Cansandra</li>
+  </ul>
+</ul>
+
+<br>------------------------------------------------------------------- <br>
+
+<!-- 5. Create an element that helps you to open the https://google.com in separate new tab.   -->
+<a href="http://google.com" target="_blank" rel="noopener noreferrer">Google</a>
+
+<br>------------------------------------------------------------------- <br>
+
+<!-- 6. In the form, add two radio buttons with grouping them for employee type(Salaried and own business) -->
+<form action="#">
+  <label for="employee"> Employee type
+    <input type="radio" name="employee" id="employee" /> Salaried
+    <input type="radio" name="employee" id="employee" /> Self Employeed
+  </label>
+</form>
+
+<br>------------------------------------------------------------------- <br>
+
+<!-- 7. Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png) -->
+<div style="border: 1px solid black; display: inline-block;">
+  <form action="#">
+    <h2 style="color: white; background-color: red; display: inline-block; width: 100%;">Yes! I want to subscribe to Mag-O-Zine</h2>
+    <br><br>
+    <div style="display: inline-block;">
+      <input type="text" id="fname" name="fname" value="David">
+      <br>
+      <label for="fname">First name</label>
+    </div>
+    <div style="display: inline-block;">
+      <input type="text" id="lname" name="lname" value="Warner"> 
+      <br>
+      <label for="lname">Last name</label>
+    </div>
+    <br><br>
+
+    <textarea name="address" id="address" cols="44">1001 Washington Street</textarea>
+    <br>
+    <label for="address">Address</label>
+    <br><br>
+
+    <div style="display: inline-block;">
+      <input type="text" id="city" name="city" value="Sydney">
+      <br>
+      <label for="city">City</label>
+    </div>
+    <div style="display: inline-block;">
+      <input type="text" id="state" name="state" value="Australia"> 
+      <br>
+      <label for="state">State</label>
+    </div>
+    <div style="display: inline-block;">
+      <input type="number" id="zip" name="zip" value="987456"> 
+      <br>
+      <label for="zip">Zip</label>
+    </div>
+
+    <br><br>
+    <label for="#">Subscribe for:</label>
+    <input type="checkbox" checked> 1 year ($19.95)
+    <input type="checkbox" /> 2 years ($35.00)
+    <br><br>
+
+    <label for="#">Send me more information about:</label>
+    <br>
+    <input type="checkbox" checked> Computer-Zine
+    <br>
+    <input type="checkbox"> Fishing-Zine
+    <br>
+    <input type="checkbox"> Cat-O-Zine
+    <br><br>
+
+    <input type="submit" name="Submit">
+  </form>
+</div>
+<br><br>
+
+<br>------------------------------------------------------------------- <br>
+
+<!-- 8. Use the table tag to design given image Click here. -->
+<table border="1"> 
+  <caption>Health Chart</caption>
+  <thead>
+    <tr>
+      <th>State of Health</th>
+      <th colspan="2">Fasting Value</th>
+      <th>After Eating</th>
+    </tr>
+    <tr>  
+      <th></th>
+      <th>Minimum</th>
+      <th>Maximum</th>
+      <th>2 hours after eating</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Healthy</td>
+      <td>70</td>
+      <td>100</td>
+      <td>Less than 140</td>
+    </tr>
+
+    <tr>
+      <td>Pre-Diabetes</td>
+      <td>101</td>
+      <td>126</td>
+      <td>140- to 200</td>
+    </tr>
+
+    <tr>
+      <td>Diabetes</td>
+      <td>More than 126</td>
+      <td>N/A</td>
+      <td>More than 200</td>
+    </tr>
+
+  </tbody>
+</table> 
+
+<br>------------------------------------------------------------------- <br>
+
+
+<!-- 9.Write HTML input tags snippet to show default values for all Form elements. -->
+<h2>Contact Form</h2>
+  <form action="#">
+    <label for="fname">First name</label>
+    <input type="text" placeholder="First name" id="fname" name="fname" value="Rohit">
+    <br><br>
+
+    <label for="lname">Last name</label>
+    <input type="text" placeholder="Last name" id="lname" name="lname" value="Sharma">
+    <br><br>
+
+    <label for="email">Email</label>
+    <input type="email" placeholder="Your email" id="email" name="email" value="ro45@gmail.com">
+    <br><br>
+
+    <label for="phone">Phone no.</label>
+    <input type="number" placeholder="Phone No." id="phone"  name="phone" value="4545454545">
+    <br><br>
+
+    <input type="submit" name="Submit">
+  </form>
+
+  <br>------------------------------------------------------------------- <br>
+
+  <!-- 10. In your, HTML page add the below line and Highlight it without using any CSS.
+  "HTML & CSS is awesome" -->
+
+  <mark>"HTML & CSS is awesome"</mark>
+
+  <br>------------------------------------------------------------------- <br>
+
+  <!-- 11. Create an HTML page, which should contain all types of input elements. -->
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#">
+      <!-- text -->
+      <label for="name">First name</label>
+      <input type="text" id="name" name="name">
+      <br><br>
+
+      <!-- email -->
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email">
+      <br><br>
+
+      <!-- password -->
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password">
+      <br><br>
+
+      <!-- number -->
+      <label for="phone">Phone no.</label>
+      <input type="number" placeholder="Phone No." id="phone"  name="phone">
+      <br><br>
+
+      <!-- color -->
+      <label for="color">Color</label>
+      <input type="color">
+      <br><br>
+
+      <!-- radio button -->
+      <label for="#"> Gender
+        <input type="radio" name="hello"> Male
+        <input type="radio" name="hello"> Female
+      </label>
+      <br><br>
+
+      <!-- checkbox -->
+      <label for="#"> Ice-cream flavors
+        <input type="checkbox" checked> Vanilla
+        <input type="checkbox"> Chocolate
+        <input type="checkbox"> Butterscotch
+        <input type="checkbox"> Mango
+      </label>
+      <br><br>
+
+      <!-- date -->
+      <label for="#">Date</label>
+      <input type="date">
+      <br><br>
+
+      <!-- datetime-local -->
+      <label for="">Date and Local time</label>
+      <input type="datetime-local">
+      <br><br>
+
+      <!-- month -->
+      <label for="#">Month</label>
+      <input type="month">
+      <br><br>
+
+      <!-- number -->
+      <label for="#">Number</label>
+      <input type="number" min="0" max="100" step="2">
+      <br><br>
+
+      <!-- search -->
+      <label for="#">Search</label>
+      <input type="search">
+      <br><br>
+
+      <!-- time -->
+      <label for="#">Time</label>
+      <input type="time">
+      <br><br>
+
+      <!-- week -->
+      <label for="#">Week</label>
+      <input type="week">
+      <br><br>
+
+      <!-- image -->
+      <label for="#"></label>
+      <input type="image" src="https://img.cricketnmore.com/uploads/2022/09/rohit-sharma-aims-at-his-team-learning-how-to-bowl-in-tough-conditions-with-dew-around.jpg" alt="img" width="48" height="48">
+      <br><br>
+      
+      <!-- file -->
+      <label for="file">Select a file:</label>
+      <input type="file" id="file" name="myfile">
+      <br><br>
+
+      <!-- hidden -->
+      <input type="hidden">
+      <br><br>
+
+      <!-- range -->
+      <label for="vol">Volume between 1 and 100:</label>
+      <input type="range" id="vol" name="vol" min="1" max="100">
+
+      <!-- url -->
+      <label for="webpage">Add your webpage:</label>
+      <input type="url" id="webpage" name="webpage">
+      <br><br>
+
+      <input type="submit" name="Submit">
+    </form>
+  </body>
+  </html>
+
+  <br>------------------------------------------------------------------- <br>
